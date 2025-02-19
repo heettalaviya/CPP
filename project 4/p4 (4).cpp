@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+main() {
     int rows, cols;
 
     
@@ -13,7 +13,7 @@ int main() {
     int arr[rows][cols];
 
    
-    cout << "Enter elements of the array:\n";
+    cout << "Enter elements of the array: "<<endl;
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             cin >> arr[i][j];
@@ -21,7 +21,7 @@ int main() {
     }
 
     
-    cout << "The 2D array is:\n";
+    cout << "The 2D array is: "<<endl;
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             cout << arr[i][j] << " ";

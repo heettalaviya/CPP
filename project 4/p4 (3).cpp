@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() {
+main() {
     int rows, cols;
     
    
@@ -29,7 +29,7 @@ int main() {
     }
 
     
-    cout << "Transpose of the matrix:\n";
+    cout << "Transpose of the matrix: "<<endl;
     for (int i = 0; i < cols; i++) {
         for (int j = 0; j < rows; j++) {
             cout << transpose[i][j] << " ";
